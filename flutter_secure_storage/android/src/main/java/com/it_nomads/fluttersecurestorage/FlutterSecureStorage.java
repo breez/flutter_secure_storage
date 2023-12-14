@@ -28,7 +28,7 @@ public class FlutterSecureStorage {
     private final Charset charset;
     private final Context applicationContext;
     protected String ELEMENT_PREFERENCES_KEY_PREFIX = "VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIHNlY3VyZSBzdG9yYWdlCg";
-    protected Map<String, Object> options;
+    public Map<String, Object> options;
     private String SHARED_PREFERENCES_NAME = "FlutterSecureStorage";
     private SharedPreferences preferences;
     private StorageCipher storageCipher;
