@@ -64,7 +64,7 @@ public class FlutterSecureStorage {
         return preferences.contains(key);
     }
 
-    String read(String key) throws Exception {
+    public String read(String key) throws Exception {
         ensureInitialized();
 
         String rawValue = preferences.getString(key, null);
